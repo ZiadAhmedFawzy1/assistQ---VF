@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "label": "rate plans",
+        "details": [
+            "change rate plan",
+            "inquiry about the rate plan",
+            "RED rate plans",
+            "compare available plans",
+            "check plan benefits"
+        ]
+    },
+    { 
+        "id": 2, 
+        "label": "inquire SR",
+        "details": [
+            "churn (conversion to pre / deactivation)",
+            "sim swap request (retail)",
+            "denial request",
+            "deal promise to pay",
+            "transfer ownership"
+        ]
+    },
+    { 
+        "id": 4, 
+        "label": "billing",
+        "details": [
+            "bill dispute",
+            "The invoice price is high and the client is angry",
+            "offer / discount on bill"
+        ]
+    }
+    ,
+    { 
+        "id": 5, 
+        "label": "balance dispute",
+        "details": [
+            "mi bundle",
+            "main balance",
+            "flexes"
+        ]
+    },
+    { 
+        "id": 6, 
+        "label": "issue system",
+        "details": [
+            "siebal",
+            "ccat",
+            "vas"
+        ]
+    },
+    { 
+        "id": 7, 
+        "label": "USSD/IVR",
+        "details": [
+            "VF-cash",
+            "transfer from main balance to bill",
+            "transfer from VF-cash to bill",
+            "3al fatora service / MI on bill",
+            "ADSL / Home Wireless",
+            "mi bundle",
+            "flex extra",
+            "refresh MI / voice",
+            "call divert",
+            "balance transfer",
+            "black / white list",
+            "EOCN / MCK / world in your hand",
+            "reacharge on bill for enterprise SPOCs",
+            "roaming"
+        ]
+    },
+    { 
+        "id": 8, 
+        "label": "complain",
+        "details": [
+            "complain on bill",
+            "escalation to leader",
+            "activation lines",
+            "sales / retail",
+            "ADSL / Home wireless",
+            "consuming mi / main balance",
+            "network complain",
+            "offer / discount complain",
+            "issue system"
+        ]
+    }
+    ,
+    { 
+        "id": 10, 
+        "label": "service",
+        "details": [
+            "EOCN / MCK / world in your hand",
+            "3al fatora service / MI on bill",
+            "inquire supplementry service"
+        ]
+    },
+    { 
+        "id": 11, 
+        "label": "MI bundle",
+        "details": [
+            "extreme bundle",
+            "plus bundle",
+            "RED extreme bundle",
+            "cancel MI bundle",
+            "renew bundle",
+            "bundle expired",
+            "upgrade / make bundle"
+        ] 
+    },
+    { 
+        "id": 12, 
+        "label": "offer",
+        "details": [
+            "pay 2 get 1 offer",
+            "pay 1 get 1 offer",
+            "step-up plus offer",
+            "6M discount 50% / 25%",
+            "ready business offer",
+            "NBA offer"
+        ]
+    },
+    { 
+        "id": 13, 
+        "label": "other reason"
+    }
+]

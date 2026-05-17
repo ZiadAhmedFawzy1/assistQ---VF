@@ -1,0 +1,99 @@
+.wizard {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wizard .request {
+    text-align: center;
+    width: fit-content;
+    background-color: var(--main);
+    color: var(--secondary);
+    padding: 30px;
+    border-radius: var(--raduis);
+    position: absolute;
+    top: 50px;
+}
+
+.wizard .request button {
+    padding: 5px 10px;
+    border-radius: var(--raduis);
+    color: var(--main);
+    cursor: pointer;
+}
+
+.wizard .haveFun {
+    text-align: center;
+    position: absolute;
+    top: 150px;
+}
+
+.wizard .warning {
+    background-color: #fff27e;
+    color: #222 !important;
+}
+
+.btn-wizard button {
+    margin: 4px;
+}
+
+.btn-wizard .btnDetails {
+    padding: 5px 20px !important;
+    background-color: var(--main-v2);
+    color: var(--secondary) !important;
+}
+
+.details-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #00000041;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-container .details-box {
+    width: 80%;
+    padding: 20px;
+    background-color: var(--main-v2);
+    color: var(--secondary);
+    border-radius: var(--raduis);
+}
+
+.details-container .details-box table {
+    width: 100%;
+    text-align: center;
+}
+
+.details-container .details-box .btn {
+    text-align: right;
+}
+
+.details-container .details-box .btn button {
+    all: unset;
+    cursor: pointer;
+}
+
+.stem-btn-details {
+    padding: 5px;
+    background-color: var(--secondary);
+    border-radius: var(--raduis);
+    color: var(--main-v2);
+    cursor: pointer;
+}
+
+.wizard .TimeLogin {
+    background-color: var(--main-v2);
+    color: var(--secondary);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    font-family: monospace;
+}

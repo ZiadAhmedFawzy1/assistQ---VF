@@ -1,0 +1,43 @@
+::selection {
+  background-color: transparent;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+:root {
+  --main:#ff2e2e;
+  --main-v2:#c50000;
+  --secondary: #fff;
+  --raduis: 10px;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "cairo";
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,button {
+  border: none;
+}
+
+input:focus,button:focus {
+  outline: none;
+}

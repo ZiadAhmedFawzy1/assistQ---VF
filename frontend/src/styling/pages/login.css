@@ -1,0 +1,39 @@
+.login-form {
+    height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.login-form form {
+    background-color: rgba(255, 0, 0, 0.362);
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: var(--raduis);
+}
+
+.login-form form h2 {
+    color: #222;
+}
+
+.login-form form input {
+    display: block;
+    padding: 9px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: var(--raduis);
+}
+
+.login-form button {
+    padding: 10px 20px;
+    border-radius: var(--raduis);
+    background-color: var(--main);
+    color: var(--secondary);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.login-form button:hover {
+    background-color: var(--main-v2);
+}

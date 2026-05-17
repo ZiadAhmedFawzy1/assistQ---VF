@@ -1,0 +1,87 @@
+.box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    /* background-color: var(--main); */
+    /* color: var(--main); */
+    background-color: #777;
+    color: #eee;
+    /* padding: 20px; */
+    max-height: 500px;
+    overflow: auto;
+    border-radius: var(--raduis);
+}
+
+.box table {
+    width: 100%;
+    text-align: center;
+}
+
+.box table tbody tr {
+    background-color: #222;
+    color: #eee;
+}
+
+.box table thead th {
+    background-color: var(--main);
+    color: #fff;
+    padding: 10px;
+}
+
+.monitor h2 {
+    text-align: center;
+}
+
+.monitor .warning {
+    background-color: #ffc020;
+    color: #111;
+}
+
+.monitor .timeout {
+    background-color: #c91432;
+    color: #fff;
+}
+
+.monitor .success {
+    background-color: #138636;
+    color: #fff;
+}
+
+.monitor .box input, .monitor .box select {
+    width: calc(95% / 3);
+    background-color: var(--secondary);
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: var(--raduis);
+}
+
+.monitor .normal {
+    background-color: #eee;
+    color: #222;
+}
+
+.monitor .high {
+    background-color: #ff5d5d;
+    color: #222;
+}
+
+.monitor .low {
+    background-color: #64c9f8;
+    color: #222;
+}
+
+.monitor .solution {
+    width: 90%;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.monitor .solution p {
+    width: calc(100%/5);
+    background-color: var(--main);
+    color: var(--secondary);
+    padding: 5px;
+    border: 1px solid var(--secondary);
+}

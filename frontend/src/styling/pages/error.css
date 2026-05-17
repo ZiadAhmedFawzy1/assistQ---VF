@@ -1,0 +1,27 @@
+.error {
+    height: 80vh;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.error .container {
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.error .content a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: var(--main);
+    color: var(--secondary);
+    border-radius: var(--raduis);
+    transition-duration: 0.2s;
+}
+
+.error .content a:hover {
+    background-color: var(--main-v2);
+}

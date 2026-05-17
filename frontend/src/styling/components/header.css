@@ -1,0 +1,33 @@
+header {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--main);
+    color: var(--secondary);
+}
+
+header h1 {
+    text-transform: capitalize;
+}
+
+header a {
+    color: var(--secondary);
+}
+
+header .btns button {
+    margin: 0 10px;
+    padding:  10px;
+    border-radius: var(--raduis);
+    color: var(--main);
+    background-color: var(--secondary);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border: 1px solid transparent;
+}
+
+header .btns button:hover {
+    background-color: var(--main-v2);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
